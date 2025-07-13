@@ -1,6 +1,6 @@
 import React from "react";
 import { FolderOpenDot, Phone } from "lucide-react";
-import { Harrison } from "../src/assets/Harrison.jpeg";
+import Image from "../../assets/Harrison.jpeg";
 
 export default function Hero() {
   return (
@@ -29,7 +29,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="lg:w-96 relative rounded-full bg-slate-100 overflow-hidden">
-            <img src={Harrison} className="w-full h-full object-cover" />
+            <img src={Image} className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
